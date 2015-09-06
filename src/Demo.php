@@ -10,7 +10,7 @@ class Demo {
 
     function test($params = array())
     {
-        return $params[0];
+        return $this->config;
     }
 
 }
