@@ -17,6 +17,7 @@
         "email": "plinker@icodes.it"
     },
     "require": {
+        "opis/closure": "^2.2.0"
     },
     "autoload": {
         "psr-4": {

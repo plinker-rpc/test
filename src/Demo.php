@@ -1,6 +1,8 @@
 <?php
 namespace plinker\Test;
 
+use Opis\Closure\SerializableClosure;
+
 class Demo {
 
     public function __construct(array $config = array())
@@ -8,9 +10,23 @@ class Demo {
         $this->config = $config;
     }
 
-    function test($params = array())
+    function this($params = array())
     {
-        return $this->config;
+        return $this;
+    }
+    
+    function hello($params = array())
+    {
+        return ['Hello World'];
+    }
+    
+    function helloClosure($params = array())
+    {
+        $test = function ($what) {
+            return $what.' - Thanks buddy...';
+        };
+
+        return new SerializableClosure($test);
     }
 
 }
