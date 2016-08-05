@@ -1,5 +1,5 @@
 <?php
-namespace plinker\Test;
+namespace Plinker\Test;
 
 use Opis\Closure\SerializableClosure;
 
