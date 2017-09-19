@@ -13,7 +13,8 @@ use Opis\Closure\SerializableClosure;
  * class to interface to, a range of data types can be sent back from 
  * strings, arrays, objects, closures or even self/this.
  */
-class Demo {
+class Demo
+{
 
     /**
      * @param array $config - This contains decoded payload, and config passed to the connection construct
