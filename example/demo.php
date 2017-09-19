@@ -17,11 +17,7 @@ $demo = new \Plinker\Core\Client(
     
     // component namespace to interface to
     'Test\Demo',
-<<<<<<< HEAD
     
-=======
-	
->>>>>>> 420c907833068547ef5b7bf25848de591bab8900
     // keys
     hash('sha256', gmdate('h').$plinker['public_key']),
     hash('sha256', gmdate('h').$plinker['private_key']),
@@ -30,11 +26,7 @@ $demo = new \Plinker\Core\Client(
     //  will use, for RedbeanPHP component you would send the database connection
     //  dont worry its AES encrypted. see: encryption-proof.txt
     [
-<<<<<<< HEAD
         'foo' => 'bar'
-=======
-	'foo' => 'bar'
->>>>>>> 420c907833068547ef5b7bf25848de591bab8900
     ]
 );
 
