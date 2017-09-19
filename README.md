@@ -1,19 +1,24 @@
-**Plinker-RPC**
+**Plinker-RPC - Test/Demo**
 =========
 
 Plinker PHP RPC client/server makes it really easy to link and execute PHP component classes on remote systems, while maintaining the feel of a local method call.
 
 A Test component which simply returns back what you sent, for testing/example purposes.
 
-Features:
-=========
+**Composer**
 
- * Client <=> Server AES Encryption.
- * Signed and authenticated payload packets.
- * Call a components method or return an object or closure for local execution.
+    {
+    	"require": {
+    		"plinker/core": ">=v0.1",
+    		"plinker/test": ">=v0.1"
+    	}
+    }
 
-For Example (Making a remote call)
----------------------------
+
+
+Making a remote call.
+--------------------
+
 
     <?php
     require 'vendor/autoload.php';
@@ -56,11 +61,4 @@ For Example (Making a remote call)
         exit($server->execute());
     }
 
-
-##Components##
-	{
-		"require": {
-			"plinker/core": ">=v0.1",
-			"plinker/test": ">=v0.1"
-		}
-	}
+See the [organisations page](https://github.com/plinker-rpc) for additional components.
