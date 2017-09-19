@@ -42,7 +42,7 @@ echo '<pre>'.print_r($demo->this()->an_array(), true).'</pre>';
 // call an_array()
 echo '<pre>'.print_r($demo->an_array(), true).'</pre>';
 
-// call an_array()
+// call closure() then locally execute it
 echo '<pre>'.print_r($demo->closure()('How you doing?'), true).'</pre>';
 
 // call my_time()
