@@ -9,8 +9,8 @@ namespace Plinker\Test;
 use Opis\Closure\SerializableClosure;
 
 /**
- * A few basic methods which demostrate how easy it is to define a 
- * class to interface to, a range of data types can be sent back from 
+ * A few basic methods which demostrate how easy it is to define a
+ * class to interface to, a range of data types can be sent back from
  * strings, arrays, objects, closures or even self/this.
  */
 class Demo
@@ -28,12 +28,12 @@ class Demo
                 (
                     [foo] => bar
                 )
-        
+
             [action] => config
             [params] => Array
                 (
                 )
-        
+
             [data] => ...snip / encrypted payload
             [public_key] => 01418673ae1efc38699b408567231f8311a3fe561483268be5bade7d0bf24fd8
             [request_time] => 1505829919
@@ -105,5 +105,4 @@ class Demo
     {
         return $_SERVER['REMOTE_ADDR'];
     }
-
 }
