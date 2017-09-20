@@ -1,20 +1,19 @@
 {
     "name": "plinker/test",
     "minimum-stability": "dev",
-    "description": "",
+    "description": "An example component, which has a few methods for testing/example purposes.",
     "license": "MIT",
-    "keywords": [],
-    "homepage": "https://bitbucket.org/plinker/example/",
+    "keywords": ["plinker","rpc"],
+    "homepage": "https://github.com/plinker-rpc/test",
     "authors": [
         {
             "name": "Lawrence Cherone",
             "email": "lawrence@cherone.co.uk",
-            "homepage": "http://cherone.co.uk/",
-            "role": "Owner"
+            "homepage": "http://cherone.co.uk/"
         }
     ],
     "support": {
-        "email": "plinker@icodes.it"
+        "email": "plinker@cherone.co.uk"
     },
     "require": {
         "opis/closure": "^2.2.0"
