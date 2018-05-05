@@ -3,7 +3,7 @@
     "minimum-stability": "dev",
     "description": "An example component, which has a few methods for testing/example purposes.",
     "license": "MIT",
-    "keywords": ["plinker","rpc"],
+    "keywords": ["plinker","rpc","example","test"],
     "homepage": "https://github.com/plinker-rpc/test",
     "authors": [
         {
