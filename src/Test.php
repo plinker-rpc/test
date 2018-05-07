@@ -52,11 +52,11 @@ class Test
      */
     public function closure($params = [])
     {
-        $test = function ($what) {
-            return $what.' - Thats cool!';
+        $closure = function ($string) {
+            return $string;
         };
 
-        return new SerializableClosure($test);
+        return new SerializableClosure($closure);
     }
 
     /**
