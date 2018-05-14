@@ -1,4 +1,4 @@
-# PlinkerRPC - Test/Demo
+# Test
 
 A test/demo component which has a few basic methods which demostrate how easy it is 
 to define a class to interface to, a range of data types can be sent back from
