@@ -1,6 +1,6 @@
-# Test
+# PlinkerRPC - Test/Demo
 
-A Test component which has a few basic methods which demostrate how easy it is 
+A test/demo component which has a few basic methods which demostrate how easy it is 
 to define a class to interface to, a range of data types can be sent back from
 strings, arrays, objects, closures or even self/this for testing/example purposes.
 
@@ -128,6 +128,23 @@ $client->test->closure()('foo');
 **Response**
 ``` text
 foo
+```
+
+### Run Closure
+
+This shows running a closure (anonymous function) on the server from the client which was serialised with [(opis/closure) SerializableClosure](https://github.com/opis/closure). 
+This allows you to neatly mutate any data before its returned back from the server.
+
+**Call**
+``` php
+$client->test->run_closure(function ($value = []) {
+    return implode(' ', $value);
+})
+```
+
+**Response**
+``` text
+Hello World
 ```
 
 ### An Object
