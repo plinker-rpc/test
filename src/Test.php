@@ -75,6 +75,16 @@ class Test
 
         return new SerializableClosure($closure);
     }
+    
+    /**
+     * By using Opis Closure, execute a closuer which was sent by the client.
+     */
+    public function run_closure($closure = null)
+    {
+        $values = ['Hello', 'World'];
+        
+        return $closure($values);
+    }
 
     /**
      * Return an instance of Datetime.

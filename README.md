@@ -130,6 +130,23 @@ $client->test->closure()('foo');
 foo
 ```
 
+### Run Closure
+
+This shows running a closure (anonymous function) on the server from the client which was serialised with [(opis/closure) SerializableClosure](https://github.com/opis/closure). 
+This allows you to neatly mutate any data before its returned back from the server.
+
+**Call**
+``` php
+$client->test->run_closure(function ($value = []) {
+    return implode(' ', $value);
+})
+```
+
+**Response**
+``` text
+Hello World
+```
+
 ### An Object
 
 This shows returning an object, in this example a DateTime object.

@@ -16,7 +16,7 @@
         "email": "plinker@cherone.co.uk"
     },
     "require": {
-        "opis/closure": "^2.2.0",
+        "opis/closure": "^3.0.12",
         "plinker/core": ">=0.1"
     },
     "autoload": {
